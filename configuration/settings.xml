@@ -5,13 +5,13 @@
     <servers>
         <server>
             <id>openlegacy-m2</id>
-            <username>public</username>
-            <password>AP3UUPpoUv5HMRpNWwEXHKremER</password>
+            <username>julio.v</username>
+            <password>AKCp8hzDDXFM2wF18YCKHhTDgz1SAs4DzbMwjrU55UFUHUez5Yz9ik75BmDEwF6rwPkn6fFkB</password>
         </server>
         <server>
             <id>ol-3rd-party-libs</id>
-            <username>public</username>
-            <password>AP3UUPpoUv5HMRpNWwEXHKremER</password>
+            <username>julio.v</username>
+            <password>AKCp8hzDDXFM2wF18YCKHhTDgz1SAs4DzbMwjrU55UFUHUez5Yz9ik75BmDEwF6rwPkn6fFkB</password>
         </server>
     </servers>
 
