@@ -1,0 +1,50 @@
+# Logging #
+logging:
+  level:
+    org:
+      openlegacy: debug
+
+
+
+management:
+  health:
+    defaults:
+      enabled: false
+  endpoints:
+    web:
+      exposure:
+        include:
+          - health
+          - olprojectinfo
+          - metrics
+
+# Springdoc #
+springdoc:
+  pathsToMatch: /api/**
+  swagger-ui:
+    path: /swagger
+  api-docs:
+    path: /swagger/swagger.json
+# OpenLegacy #
+ol:
+  # OpenLegacy Common Properties (OLCommonProperties) #
+  common:
+    cache:
+      enabled: false
+  license:
+    key: eyJhbGciOiJSUzI1NiJ9.eyJwcm9kdWN0Ijoib3BlbmxlZ2FjeS1jb3JlIiwic3ViIjoib2wtaHViIiwiaXNzdWVkX2F0IjoiMjAyMi0wNy0wMVQwNzoyODoxOC40MDQ5ODdaIiwiZXhwaXJ5X2RhdGUiOiIyMDI1LTA3LTAxVDA5OjI4OjE4LjQwNDk4NloiLCJ2YWxpZF9mb3IiOjEwOTYsImN1c3RvbWVyX25hbWUiOiJQcm9mdXR1cm8iLCJjdXN0b21lcl90eXBlIjoiUEFZSU5HIiwibGljZW5zZV90eXBlIjoiUFJPRFVDVElPTiIsIm9iamVjdF9saW1pdHMiOnsicHVibGlzaGVkUHJvamVjdHMiOjk5OTksImFwaUNhbGxzIjo5OTk5LCJtZXRob2RzIjozNywicHJlbWl1bU1ldGhvZHMiOjM3fSwiY29ubmVjdG9ycyI6WyIqIl19.qag9V1Kk-mbf1RzQsr2kD8cFDTQL1ACyN8JYNTuKFWAy3zwjDb059CNtPUpcxqo_RwGfZl6he51pxoXxdRRQNhAC27ANvolUUQFTm1ruReWGIWY12O9y7hE_eOEBEtHwHC7bFo-D9nW_-5iR75WpVW0ECMgqaNLEXZHLpSM5BdGI5_3ORcaA7lsV7ClBltbJPcsDnzifhCh4pzzzwohKOGdmN0B4RIK8W6s31hZ61E5bCAl3c34qbpyAn8aRmfgidWi9vuG-pDQqvjvhtjBIjYbNpGTYN3_rzWdwNWqQ-Sgph5NlawtdSJ5KFzPqAifDDfHJyQvlkNAi9ZCutmuN8w
+
+---
+
+# demoSoapSdk
+ol:
+  soap:
+    project:
+      demoSoapSdk:
+        host: https://ecs.syr.edu/faculty/fawcett/Handouts/CSE681/code/CODEGEN_Products/calcWebService/Calc.asmx?WSDL
+  license:
+    key: eyJhbGciOiJSUzI1NiJ9.eyJwcm9kdWN0Ijoib3BlbmxlZ2FjeS1jb3JlIiwic3ViIjoib2wtaHViIiwiaXNzdWVkX2F0IjoiMjAyMi0wNy0wMVQwNzoyODoxOC40MDQ5ODdaIiwiZXhwaXJ5X2RhdGUiOiIyMDI1LTA3LTAxVDA5OjI4OjE4LjQwNDk4NloiLCJ2YWxpZF9mb3IiOjEwOTYsImN1c3RvbWVyX25hbWUiOiJQcm9mdXR1cm8iLCJjdXN0b21lcl90eXBlIjoiUEFZSU5HIiwibGljZW5zZV90eXBlIjoiUFJPRFVDVElPTiIsIm9iamVjdF9saW1pdHMiOnsicHVibGlzaGVkUHJvamVjdHMiOjk5OTksImFwaUNhbGxzIjo5OTk5LCJtZXRob2RzIjozNywicHJlbWl1bU1ldGhvZHMiOjM3fSwiY29ubmVjdG9ycyI6WyIqIl19.qag9V1Kk-mbf1RzQsr2kD8cFDTQL1ACyN8JYNTuKFWAy3zwjDb059CNtPUpcxqo_RwGfZl6he51pxoXxdRRQNhAC27ANvolUUQFTm1ruReWGIWY12O9y7hE_eOEBEtHwHC7bFo-D9nW_-5iR75WpVW0ECMgqaNLEXZHLpSM5BdGI5_3ORcaA7lsV7ClBltbJPcsDnzifhCh4pzzzwohKOGdmN0B4RIK8W6s31hZ61E5bCAl3c34qbpyAn8aRmfgidWi9vuG-pDQqvjvhtjBIjYbNpGTYN3_rzWdwNWqQ-Sgph5NlawtdSJ5KFzPqAifDDfHJyQvlkNAi9ZCutmuN8w
+
+
+
+
